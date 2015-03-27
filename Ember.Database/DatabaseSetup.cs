@@ -1,13 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Ember.Database
+﻿namespace Ember.Database.Initialize
 {
-    using System.Data.Entity;
-
     /// <summary>
     /// The database setup.
     /// </summary>

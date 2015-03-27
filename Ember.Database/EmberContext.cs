@@ -1,4 +1,4 @@
-﻿namespace Ember.Database
+﻿namespace Ember.Database.Initialize
 {
     using System.Data.Entity;
 
