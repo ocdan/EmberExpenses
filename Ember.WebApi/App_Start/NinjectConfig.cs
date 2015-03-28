@@ -1,4 +1,4 @@
-﻿namespace Ember.WebApi
+﻿namespace Ember.WebApi.App_Start
 {
     using Ember.Ninject;
 
@@ -12,7 +12,11 @@
         /// </summary>
         public static void Start()
         {
+#if !DEBUG
+                NinjectWebCommon.Start(new List<Type> { typeof(UnhandledExceptionFilter) });
+#else
             NinjectWebCommon.Start();
+#endif
         }
 
         /// <summary>

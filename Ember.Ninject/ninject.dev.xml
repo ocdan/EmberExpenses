@@ -1,0 +1,4 @@
+﻿<module name="XmlExtensionModule">
+  <!--<bind service="KeyTravel.Infrastructure.DataLayer.Common.IDbContext, KeyTravel.Infrastructure.DataLayer.Common"
+        to="KeyTravel.Infrastructure.DataLayer.DataBase.Initialize.KeyTravelDbContext, KeyTravel.Infrastructure.DataLayer.DataBase.Initialize" scope="request" />-->
+</module>

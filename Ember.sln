@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ember.WebApi.Tests", "Ember.WebApi.Tests\Ember.WebApi.Tests.csproj", "{6F68E517-9A52-4DF5-826B-9440816886A6}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{141AF15C-A129-479C-8BF6-86A0CD962A9F}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
@@ -40,18 +38,6 @@ Global
 		Staging|Any CPU = Staging|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6F68E517-9A52-4DF5-826B-9440816886A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6F68E517-9A52-4DF5-826B-9440816886A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6F68E517-9A52-4DF5-826B-9440816886A6}.DevBuild|Any CPU.ActiveCfg = Debug|Any CPU
-		{6F68E517-9A52-4DF5-826B-9440816886A6}.DevBuild|Any CPU.Build.0 = Debug|Any CPU
-		{6F68E517-9A52-4DF5-826B-9440816886A6}.Production|Any CPU.ActiveCfg = Release|Any CPU
-		{6F68E517-9A52-4DF5-826B-9440816886A6}.Production|Any CPU.Build.0 = Release|Any CPU
-		{6F68E517-9A52-4DF5-826B-9440816886A6}.QA|Any CPU.ActiveCfg = Release|Any CPU
-		{6F68E517-9A52-4DF5-826B-9440816886A6}.QA|Any CPU.Build.0 = Release|Any CPU
-		{6F68E517-9A52-4DF5-826B-9440816886A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6F68E517-9A52-4DF5-826B-9440816886A6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6F68E517-9A52-4DF5-826B-9440816886A6}.Staging|Any CPU.ActiveCfg = Release|Any CPU
-		{6F68E517-9A52-4DF5-826B-9440816886A6}.Staging|Any CPU.Build.0 = Release|Any CPU
 		{0E26B645-7460-47D8-B771-D590A02EDE45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0E26B645-7460-47D8-B771-D590A02EDE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E26B645-7460-47D8-B771-D590A02EDE45}.DevBuild|Any CPU.ActiveCfg = Debug|Any CPU
@@ -129,7 +115,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{6F68E517-9A52-4DF5-826B-9440816886A6} = {9650D997-C3D9-44EA-A4A4-CA12E79CDCCE}
 		{0E26B645-7460-47D8-B771-D590A02EDE45} = {1E454799-968E-4378-A12B-8C68AF9E10B7}
 		{94FF720E-D470-43CD-BFEB-DE918598498E} = {1E454799-968E-4378-A12B-8C68AF9E10B7}
 		{EDC422A3-4092-4983-ADA9-B84A12039DED} = {B2BE4B0B-0158-40F4-B6D2-0C197770C86B}
