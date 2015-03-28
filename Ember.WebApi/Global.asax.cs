@@ -21,6 +21,7 @@ namespace Ember.WebApi
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             DatabaseSetup.Initialize();
+            NinjectConfig.Start();
         }
     }
 }
