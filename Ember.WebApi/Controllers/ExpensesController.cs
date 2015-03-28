@@ -8,12 +8,12 @@ namespace Ember.WebApi.Controllers
     using Ember.Handlers;
     using Ember.Models;
 
-    [RoutePrefix("api/staticdata")]
+    [RoutePrefix("api/expenses")]
     public class ExpensesController : BaseController
     {
         [HttpGet]
         [AllowAnonymous]
-        [Route("GetAirlines")]
+        [Route("GetExpenses")]
         [ResponseType(typeof(IEnumerable<ExpenseLine>))]
         public IHttpActionResult GetExpenses()
         {
